@@ -1,9 +1,4 @@
 import { Navigation } from '../components/Navigation';
-import CateringzHome from '../assets/image/CateriNgzHome.png';
-import CateringzAbout from '../assets/image/CateriNgzAbout.png';
-import CateringzProducts from '../assets/image/CateriNgzProducts.png';
-import CateringzRegister from '../assets/image/CateriNgzRegister.png';
-import CateringzTestimonials from '../assets/image/CateriNgzTestimonials.png';
 
 export function Projects() {
   return (
@@ -46,17 +41,17 @@ export function Projects() {
               </svg>
             </a>
             <img 
-              src={CateringzHome} 
+              src={new URL('../assets/image/CateringzHome.png', import.meta.url).href}
               alt="CAteriNgz Homepage" 
               className="w-full object-cover project-display pt-10"
             />
             <img 
-              src={CateringzTestimonials}  
+              src={new URL('../assets/image/CateringzTestimonials.png', import.meta.url).href}  
               alt="CAteriNgz Testimonials" 
               className="w-full object-cover project-display"
             />
             <img 
-              src={CateringzAbout}  
+              src={new URL('../assets/image/CateringzAbout.png', import.meta.url).href}  
               alt="CAteriNgz About" 
               className="w-full object-cover project-display"
             />
@@ -64,12 +59,12 @@ export function Projects() {
           {/* Right: Images */}
           <div className="flex flex-col gap-8">
             <img 
-              src={CateringzProducts}  
+              src={new URL('../assets/image/CateringzProducts.png', import.meta.url).href}  
               alt="CAteriNgz Products" 
               className="w-full object-cover project-display pt-40"
             />
             <img 
-              src={CateringzRegister}  
+              src={new URL('../assets/image/CateringzRegister.png', import.meta.url).href}  
               alt="CAteriNgz Profile" 
               className="w-full object-cover project-display"
             />
