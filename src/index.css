@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Hanken+Grotesk:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+.font-hammersmith {
+  font-family: 'Hammersmith One', sans-serif;
+}
+.font-hanken {
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.custom-shadow {
+  box-shadow:
+    19px 15px 15px -12px rgba(0,0,0,0.15), /* drop shadow */
+    inset 5px 5px 10px -8px rgba(0,0,0,0.18); /* inner shadow */
+  backdrop-filter: blur(27.4px);
+}
+
+.custom-shadow-light {
+  box-shadow:
+    19px 15px 15px -12px rgba(255, 255, 255, 0.05), /* drop shadow */
+    inset 5px 5px 10px -1px rgba(255, 255, 255, 0.18); /* inner shadow */
+  backdrop-filter: blur(27.4px);
+}
+
+.project-display{
+  padding-bottom: 50px;
+}
